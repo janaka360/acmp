@@ -13,6 +13,15 @@
 
 
 
+	<link href="jqueryui/css/no-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+	<script src="jqueryui/js/jquery-1.9.1.js"></script>
+	<script src="jqueryui/js/jquery-ui-1.10.3.custom.js"></script>
+	<script>
+	$(function() {
+		$( "#accordion" ).accordion();
+	});
+	</script>
+
 
 
 </head>
@@ -29,10 +38,14 @@
 
 
 
-<header>
-<a href="#">Back</a>
+<header class="header-nav">
+<a href="#">Search</a>
 <h1>Find An Assistant</h1>
 </header>
+
+
+
+
 
 
 
@@ -40,14 +53,14 @@
 <article class="assistant-profile">
 
 <header>
-<a href="#">star</a>
+<a class="profile-star" href="#">star</a>
 <h1>Zani Jackman</h1>
 <h2>Sydney, NSW, Assistant</h2>
 </header>
 
 <div class="profile">
 <div class="profile-pic">
-<img src="">
+<img src="images/test/profile-pic.jpg">
 </div>
 <div class="profile-info">
 <h3>Own Car</h3>
@@ -57,6 +70,44 @@
 <h3>Phone</h3>
 <p>0412 309 711</p>
 <a href="mailto:test@test.com">test@test.com</a>
+</div>
+</div>
+
+
+<div class="profile-bio">
+<div id="accordion">
+
+	<h3>Education</h3>
+	<div class="education">
+<p>RMIT BA Photography 2005-2008</p>
+<ul>
+<li>Earl Carter</li>
+<li>Chris Budgeon</li>
+<li>Andrew Craig</li>
+<li>Rod Schaffer</li>
+</ul>
+	</div>
+	<h3>Experience (Self rated)</h3>
+	<div class="experience">
+<p><strong>Camera Equipment</strong><p>
+<ul>
+<li class=""><p>Nikon</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
+<li class=""><p>Hasselblad</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
+<li class=""><p>Canon</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
+</ul>
+<p><strong>Software</strong><p>
+<ul>
+<li class=""><p>Photoshop</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
+<li class=""><p>Lightroom</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
+</ul>
+	</div>
+	<h3>Other Experience</h3>
+	<div class="other-experience">
+<p><strong>Lighting Equipment</strong></p>
+<p>Profoto, Nikon CLS, Elinchrom, Canon, Broncolor, Bowens, Speedlights/Strobists</p>
+<p><strong>Computer Equipment</strong></p>
+	</div>
+
 </div>
 </div>
 
