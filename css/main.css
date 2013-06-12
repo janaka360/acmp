@@ -1,0 +1,55 @@
+body{background: #efefef;}
+
+
+
+
+a.logo {
+  background: url("../images/logo-acmp.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 118px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  text-indent: -9999em;
+  width: 469px;
+}
+a.logo h1 {
+  margin: 0;
+  padding: 0;
+}
+
+
+a.find-photographer {
+  background: url("../images/bg-home-big-links.png") no-repeat scroll 20px center #EE1C2E;
+  border-radius: 30px 30px 30px 30px;
+  display: block;
+  line-height: 127px;
+  padding: 0 0 0 120px;
+}
+
+a.find-photographer span {
+  background: url("../images/btn-find-a-photographer.png") no-repeat scroll 0 0 transparent;
+  float: right;
+  height: 127px;
+  width: 136px;
+}
+
+
+
+
+a.find-assistant {
+  background: url("../images/bg-home-big-links.png") no-repeat scroll 20px center #fb5e1a;
+  border-radius: 30px 30px 30px 30px;
+  display: block;
+  line-height: 127px;
+  padding: 0 0 0 120px;
+}
+
+a.find-assistant span {
+  background: url("../images/btn-find-an-assistant.png") no-repeat scroll 0 0 transparent;
+  float: right;
+  height: 127px;
+  width: 136px;
+}
+
+
