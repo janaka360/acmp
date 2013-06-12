@@ -1,4 +1,152 @@
-body{background: #efefef;}
+/*====================================================
+* Filename: main.css
+* Website: ACMP
+* Author: Janaka De Silva
+* Date Created: 12/JUN/2013
+* Media: All
+*------------------------------------------------------
+* Description
+*------------------------------------------------------
+* Colours:
+* Background       	-   Image
+* Link             	-   Main Nav - #ffffff
+* Normal Content 	- 	#fe0000
+* Side Bar 			- 	#fe0000
+*
+* Link Hover       	-   Main Nav - #ffffff (no change)
+* Normal Content 	- 	#fe0000 (no change)
+* Side Bar 			- 	#fe0000
+*
+* Link Active      	-   Main Nav - css3 red
+*
+*------------------------------------------------------
+* Layout Styles Index
+*------------------------------------------------------
+css reset
+html elements
+layout
+template
+----logo
+----header-widgets
+----main-nav
+----secondary-nav
+----login-form
+----testimonial
+----banner-post-a-job
+----banner-post-your-resume
+----contact-form
+----site-map
+----footer-contact
+page
+----home
+--------flexslider
+--------quick-callouts
+--------login
+--------hero-unit
+--------callouts
+--------partners-and-sponsors
+----career-center
+--------search-level-two
+--------search-result
+--------search-pager
+--------tabs
+----audit-library
+--------hospital-search-form
+--------hospital-search-result
+======================================================*/
+/*-----css reset-----*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:inherit;font-family:inherit;vertical-align:baseline;list-style-type:none;text-decoration:none;}
+article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object{display:block;}
+/*-----html elements-----*/
+html{font-size:170%;color:#212121;font-family:'Karla',sans-serif;}
+body{background:none no-repeat scroll 0 0 #efefef;font-size:1em;line-height:1.55em;}
+/*h1{font-family:"Ubuntu",sans-serif;font-weight:700;font-size:1.714em;line-height:2.286em;text-transform:capitalize;margin:0;padding:2px 0 2px 25px;}
+h2{font-size:1.429em;line-height:1.714em;border-bottom:1px solid #cccccc;margin:0;padding:0;}
+h3,h4,h5,h6{font-size:1.429em;line-height:1.714em;}
+p{line-height:1.47em;margin:0 0 18px;padding:0;}
+a{color:#fe0000;cursor:pointer;outline:medium none;text-decoration:underline;}
+a:hover,a:focus{text-decoration:none;}
+ul{margin:0;padding:0 20px;}
+ul li{list-style:none outside none;margin:0;padding:0 0 0 10px;}
+input[type="text"]{border:1px solid #999999;border-radius:7px;float:left;padding:7px;width:171px;}
+form input[type="submit"]{cursor:pointer;}*/
+/*-----layout-----*/
+
+
+/*-----template-----*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+#nav li {
+  width: 100%;
+  display: block;
+}
+
+.js #nav {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+#nav.opened {
+  max-height: 9999px;
+}
+
+
+@media screen and (min-width: 40em) {
+  .js #nav {
+    position: relative;
+  }
+  .js #nav.closed {
+    max-height: none;
+  }
+  #nav-toggle {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -25,6 +173,7 @@ a.find-photographer {
   display: block;
   line-height: 127px;
   padding: 0 0 0 120px;
+
 }
 
 a.find-photographer span {
@@ -51,5 +200,36 @@ a.find-assistant span {
   height: 127px;
   width: 136px;
 }
+
+
+
+
+
+
+
+.today-photographer {
+
+}
+.today-photographer h2 {
+	text-align: center;
+}
+.today-photographer a {
+
+}
+.today-photographer a img {
+display: block;
+margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
