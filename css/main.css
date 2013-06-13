@@ -85,27 +85,27 @@ ul li{list-style:none outside none;margin:0;padding:0;}
 .header-nav {
 position: relative;
 background: #212121;
-padding: 22px 0 20px 0;
+padding: 18px 0 16px 0;
 margin: 0;
 }
 .header-nav a {
   background: url("../images/btn-back.png") no-repeat scroll 0 0 transparent;
   color: #FFFFFF;
-  left: 0;
+  left: 30px;
   line-height: 56px;
   margin: 0;
   padding: 0 0 0 23px;
   position: absolute;
   text-align: center;
   text-decoration: none;
-  top: 0;
+  top: 12px;
   width: 100px;
 }
 .header-nav h1 {
 text-align: center;
 color: #fff;
 font-size: 1.429em;
-line-height: 1em;
+line-height: 1.2em;
 }
 
 
@@ -189,6 +189,7 @@ float: left;
 .profile-bio h3 {
   background: url("../images/accordion-down.png") no-repeat scroll right center #EE322B;
   color: #FFFFFF;
+  margin: 0 0 2px !important;
 }
 .profile-bio h3.ui-state-active {
   background: url("../images/accordion-up.png") no-repeat scroll right center #302f2f;
@@ -300,34 +301,59 @@ margin: 0 auto;
 
 /*assistant profile*/
 .assistant-profile {}
-.assistant-profile header {background: #ffffff;position: relative;}
+.assistant-profile header {
+  background: #ffffff;
+position: relative;
+margin: 0;
+padding: 15px 46px 8px 46px;
+}
 .assistant-profile header a.profile-star {
   background: url("../images/ico-profile-star.png") no-repeat scroll 0 0 transparent;
   display: block;
   height: 40px;
   position: absolute;
-  right: 0;
+  right: 39px;
   text-indent: -9999em;
-  top: 0;
+  top: 18px;
   width: 42px;
 }
-.assistant-profile header h1 {}
-.assistant-profile header h2 {color: #737272;}
+.assistant-profile header h1 {
+line-height: 1.2em;
+}
+.assistant-profile header h2 {
+color: #737272;
+font-size: 1.3em;
+line-height: 1.2em;
+}
 
-.assistant-profile .profile {}
+.assistant-profile .profile {
+  background: none repeat scroll 0 0 #E0DFDF;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+}
 .assistant-profile .profile .profile-pic {
 	float: left;
-	width: 50%;
 }
-.assistant-profile .profile .profile-pic img {}
+.assistant-profile .profile .profile-pic img {float: left;}
 .assistant-profile .profile .profile-info {
-	float: left;
-	width: 50%;
-	background: #e0dfdf;
+float: left;
+margin: 0;
+padding: 24px 0 0 48px;
 }
-.assistant-profile .profile .profile-info h3 {font-weight: 700;}
-.assistant-profile .profile .profile-info p {margin: 0;padding:0;}
-.assistant-profile .profile .profile-info a {font-weight: 700;}
+.assistant-profile .profile .profile-info h3 {
+font-weight: 700;
+padding: 0 0 4px;
+margin: 0;
+}
+.assistant-profile .profile .profile-info p {
+margin: 0;
+padding: 0 0 3px;
+}
+.assistant-profile .profile .profile-info a {
+font-weight: 700;
+text-decoration: underline;
+}
 
 
 
