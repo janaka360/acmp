@@ -72,6 +72,57 @@ a:hover,a:focus{text-decoration:underline;}
 ul{margin:0;padding:0;}
 ul li{list-style:none outside none;margin:0;padding:0;}
 
+
+
+
+
+
+
+
+
+
+
+input[type="text"] {
+background: #c1c1c1;
+border-radius: 3px;
+margin: 0;
+padding: 3px;
+border: 0 none;
+}
+
+input[type="submit"] {
+
+}
+
+
+
+
+.styled-select {
+  background: url("../images/bg-select-white.png") no-repeat scroll right center #C1C1C1;
+  border: 0 none;
+  border-radius: 5px 5px 5px 5px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 0 5px;
+  padding: 0;
+}
+
+.styled-select select {
+background: none repeat scroll 0 0 transparent;
+border: 0 none;
+border-radius: 0 0 0 0;
+
+margin: 0;
+padding: 3%;
+width: 105%;
+-webkit-appearance: none;
+}
+
+
+
+
+
+
 /*-----layout-----*/
 
 
@@ -194,25 +245,7 @@ line-height: 1.2em;
 
 
 
-.styled-select select {
-background: transparent;
-width: 268px;
-padding: 5px;
-font-size: 16px;
-line-height: 1;
-border: 0;
-border-radius: 0;
-height: 34px;
--webkit-appearance: none;
-}
 
-.styled-select {
-width: 240px;
-height: 34px;
-overflow: hidden;
-background: url(../images/bg-select-white.png) no-repeat right #ddd;
-border: 1px solid #ccc;
-}
 
 
 
