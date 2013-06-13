@@ -161,23 +161,26 @@ line-height: 1.2em;
 
 .footer-main #nav-toggle {
   -moz-user-select: none;
-  background: url("../images/responsive-nav-hamburger-red.png") no-repeat scroll 50% 33% #eeeeee;
+  background: url("../images/responsive-nav-hamburger-red.png") no-repeat scroll 0 0 #eeeeee;
   float: left;
-  height: 55px;
+  height: 43px;
   overflow: hidden;
   text-indent: -9999px;
-  width: 70px;
+  width: 53px;
+  padding: 0;
+  margin: 28px 0 28px 43px;
 }
 
 .footer-main a.logo-mini {
   -moz-user-select: none;
-  background: url("../images/logo-acmp-mini.png") no-repeat scroll 50% 33% #EEEEEE;
+  background: url("../images/logo-acmp-mini.png") no-repeat scroll 0 0 #EEEEEE;
   float: right;
   height: 46px;
   overflow: hidden;
   text-indent: -9999px;
   width: 182px;
   clear: both;
+  margin: 27px 40px 0 0;
 }
 
 
@@ -187,12 +190,12 @@ float: left;
     width: 100%;
 }
 .profile-bio h3 {
-  background: url("../images/accordion-down.png") no-repeat scroll right center #EE322B;
+  background: url("../images/accordion-down.png") no-repeat scroll 96% center #EE322B;
   color: #FFFFFF;
-  margin: 0 0 2px !important;
+  margin: 0 0 1px !important;
 }
 .profile-bio h3.ui-state-active {
-  background: url("../images/accordion-up.png") no-repeat scroll right center #302f2f;
+  background: url("../images/accordion-up.png") no-repeat scroll 96% center #302f2f;
 }
 
 .profile-bio div {
@@ -209,6 +212,7 @@ float: left;
 }
 .profile-bio div ul li ul {
 	float: left;
+  padding: 12px 0 0 0;
 }
 .profile-bio div ul li ul li {
 width: auto;
