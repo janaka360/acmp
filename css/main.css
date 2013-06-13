@@ -185,6 +185,47 @@ line-height: 1.2em;
 
 
 
+
+
+
+
+
+
+
+
+
+.styled-select select {
+background: transparent;
+width: 268px;
+padding: 5px;
+font-size: 16px;
+line-height: 1;
+border: 0;
+border-radius: 0;
+height: 34px;
+-webkit-appearance: none;
+}
+
+.styled-select {
+width: 240px;
+height: 34px;
+overflow: hidden;
+background: url(../images/bg-select-white.png) no-repeat right #ddd;
+border: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .profile-bio {
 float: left;
     width: 100%;
@@ -311,8 +352,8 @@ position: relative;
 margin: 0;
 padding: 15px 46px 8px 46px;
 }
-.assistant-profile header a.profile-star {
-  background: url("../images/ico-profile-star.png") no-repeat scroll 0 0 transparent;
+a.profile-star {
+  background: url("../images/ico-profile-star-off.png") no-repeat scroll 0 0 transparent;
   display: block;
   height: 40px;
   position: absolute;
@@ -320,6 +361,11 @@ padding: 15px 46px 8px 46px;
   text-indent: -9999em;
   top: 18px;
   width: 42px;
+}
+a.profile-star:hover,
+a.profile-star:focus,
+a.profile-star.active {
+background: url("../images/ico-profile-star.png") no-repeat scroll 0 0 transparent;
 }
 .assistant-profile header h1 {
 line-height: 1.2em;
@@ -415,7 +461,7 @@ line-height: 1em;
 margin: 0;
 padding: 0;
 }
-.favourites-item header a {
+.favourites-item header a.remove {
   background: url("../images/ico-favourites-item-remove.png") no-repeat scroll 0 0 transparent;
   display: block;
   height: 28px;
@@ -469,13 +515,21 @@ margin: 0 13px 0 0;
 padding: 0 14px;
 font-size: 0.8em;
 }
-.favourites-item .favourites-item-inner .info a.type-icon {
-  background: url("../images/ico-favourites-item-photographer.png") no-repeat scroll 0 0 transparent;
+.favourites-item .favourites-item-inner .info a.type-icon.p {
+  background: url("../images/ico-favourites-item-photographer.png") no-repeat scroll center 0 transparent;
   float: left;
   height: 45px;
   text-indent: -9999em;
   width: 49px;
-margin: -5px 0 0 0;
+  margin: -5px 0 0 0;
+}
+.favourites-item .favourites-item-inner .info a.type-icon.a {
+    background: url("../images/ico-favourites-item-assistant.png") no-repeat scroll center 0 transparent;
+    float: left;
+    height: 40px;
+    margin: 0;
+    text-indent: -9999em;
+    width: 49px;
 }
 
 
