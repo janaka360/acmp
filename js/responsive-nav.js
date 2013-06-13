@@ -275,6 +275,7 @@ var responsiveNav = (function (window, document) {
     },
 
     _createToggle: function () {
+
       if (!opts.customToggle) {
         var toggle = document.createElement("a");
         toggle.innerHTML = opts.label;
@@ -283,11 +284,21 @@ var responsiveNav = (function (window, document) {
           "id": "nav-toggle"
         });
 
+var toggle2 = document.createElement("a");
+toggle2.innerHTML = opts.label;
+setAttributes(toggle2, {
+// "id": "nav-toggle",
+"class": "logo-mini"
+});
+
         if (opts.insert === "after") {
           nav.parentNode.insertBefore(toggle, nav.nextSibling);
         } else {
           nav.parentNode.insertBefore(toggle, nav);
+
         }
+
+nav.parentNode.insertBefore(toggle2, nav.nextSibling);
 
         navToggle = document.getElementById("nav-toggle");
       } else {

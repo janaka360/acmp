@@ -152,9 +152,31 @@ ul li{list-style:none outside none;margin:0;padding:0;}
   #nav-toggle {
     display: none;
   }
+  .logo-mini {
+    display: none;
+  }
 }
 
+.footer-main #nav-toggle {
+  -moz-user-select: none;
+  background: url("../images/responsive-nav-hamburger-red.png") no-repeat scroll 50% 33% #eeeeee;
+  float: left;
+  height: 55px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 70px;
+}
 
+.footer-main a.logo-mini {
+  -moz-user-select: none;
+  background: url("../images/logo-acmp-mini.png") no-repeat scroll 50% 33% #EEEEEE;
+  float: right;
+  height: 46px;
+  overflow: hidden;
+  text-indent: -9999px;
+  width: 182px;
+  clear: both;
+}
 
 
 
@@ -313,13 +335,78 @@ margin: 0 auto;
 
 
 
+/*favourites*/
+.favourites {
+    background: #ffffff;
+}
 
+.favourites-item {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+.favourites-item header {
+  position: relative;
 
-
-
-
-
-
+}
+.favourites-item header h2 {
+color: #b0abab;
+}
+.favourites-item header a {
+  background: url("../images/ico-favourites-item-remove.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 28px;
+  position: absolute;
+  right: 0;
+  text-indent: -9999em;
+  top: 0;
+  width: 28px;
+}
+.favourites-item .favourites-item-inner {
+  width: 100%;
+  float: left;
+}
+.favourites-item .favourites-item-inner .image {
+  float: left;
+  width: 50%;
+}
+.favourites-item .favourites-item-inner .image img {}
+.favourites-item .favourites-item-inner .info {
+  float: left;
+  width: 50%;
+}
+.favourites-item .favourites-item-inner .info p {
+  margin: 0;
+  padding: 0;
+}
+.favourites-item .favourites-item-inner .info p.telephone {
+  color: #EE1C2E;
+}
+.favourites-item .favourites-item-inner .info a.email {
+  background: none repeat scroll 0 0 #212121;
+  border-radius: 3px 3px 3px 3px;
+  color: #FFFFFF;
+  float: left;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+.favourites-item .favourites-item-inner .info a.profile {
+  background: none repeat scroll 0 0 #EE1C2E;
+  border-radius: 3px 3px 3px 3px;
+  color: #FFFFFF;
+  float: left;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+.favourites-item .favourites-item-inner .info a.type-icon {
+  background: url("../images/ico-favourites-item-photographer.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 45px;
+  text-indent: -9999em;
+  width: 49px;
+}
 
 
 
