@@ -83,11 +83,14 @@ ul li{list-style:none outside none;margin:0;padding:0;}
 
 
 input[type="text"] {
-background: #c1c1c1;
-border-radius: 3px;
-margin: 0;
-padding: 3px;
-border: 0 none;
+  background: none repeat scroll 0 0 #C1C1C1;
+  border: 0 none;
+  border-radius: 10px;
+  display: block;
+  font-size: 1em;
+  margin: 0;
+  padding: 2%;
+  width: 84%;
 }
 
 input[type="submit"] {
@@ -98,22 +101,23 @@ input[type="submit"] {
 
 
 .styled-select {
-  background: url("../images/bg-select-white.png") no-repeat scroll right center #C1C1C1;
+  background: url("../images/bg-select-white.png") no-repeat scroll 95% center #C1C1C1;
   border: 0 none;
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 10px;
   overflow: hidden;
-  width: 100%;
-  margin: 0 0 5px;
+  width: 88%;
+  margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 .styled-select select {
 background: none repeat scroll 0 0 transparent;
 border: 0 none;
-border-radius: 0 0 0 0;
-
+font-size: 1em;
 margin: 0;
-padding: 3%;
+padding: 3% 3% 2% 3%;
+text-transform: capitalize;
 width: 105%;
 -webkit-appearance: none;
 }
@@ -576,10 +580,65 @@ font-size: 0.8em;
 
 
 
+/*search photographer*/
+
+
+.advance-search {
+
+}
+.advance-search-form {}
+.advance-search-form .keyword-search {
+float: left;
+background: #ffffff;
+width: 96%;
+overflow: hidden;
+padding: 2% 7% 3%;
+}
+.advance-search-form .keyword-search input[type="text"] {
+background: url("../images/ico-search.png") no-repeat scroll 2% center #C1C1C1;
+padding: 2.5% 2% 2.5% 6%;
+width: 83%;
+}
 
 
 
+.advance-search-form .criteria {
+  float: left;
+  width: 100%;
+  padding: 18px 45px;
+  border-bottom: 1px solid #bebebe;
+}
+.advance-search-form .criteria h2 {
+  padding:0 0 7px;
+}
+.advance-search-form .form-row {
+  float: left;
+  width: 100%;
+margin: 0 0 25px;
+}
 
+
+.advance-search-form .search-submit {
+  float: left;
+  background: #ffffff;
+  width: 100%;
+  padding:25px 0;
+  margin: 0;
+}
+.advance-search-form .search-submit a.reset {
+float: left;
+margin: 14px 0 0 43px;
+font-size: 0.76em;
+}
+.advance-search-form .search-submit a.search {
+background: none repeat scroll 0 0 #EE1C2E;
+border-radius: 5px 5px 5px 5px;
+color: #FFFFFF;
+float: right;
+line-height: 2.27em;
+margin: 0 40px 0 0;
+padding: 0 21px;
+}
 
 
 
