@@ -1,193 +1,124 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ACMP</title>
-<link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
-
-
-
-
-<!--     <meta name="viewport" content="width=device-width,initial-scale=1"> -->
-    <link rel="stylesheet" href="css/responsive-nav.css">
-    <script src="js/responsive-nav.js"></script>
-
-
-
-	<link href="jqueryui/css/no-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet">
-	<script src="jqueryui/js/jquery-1.9.1.js"></script>
-	<script src="jqueryui/js/jquery-ui-1.10.3.custom.js"></script>
-	<script>
-	$(function() {
-		$( "#accordion" ).accordion();
-	});
-	</script>
-
-
-
-
-
-
-<!-- jQuery library (served from Google) -->
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
-<!-- bxSlider Javascript file -->
-<script src="js/jquery.bxslider.min.js"></script>
-<!-- bxSlider CSS file -->
-<link href="css/jquery.bxslider.css" rel="stylesheet" />
-
-
-
-
-
-
-
+  <title>ACMP</title>
+  <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+  <link href="css/main.min.css" rel="stylesheet" type="text/css" media="all" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/responsive-nav.css">
+  <script src="js/responsive-nav.js"></script>
+  <link href="jqueryui/css/no-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+  <script src="jqueryui/js/jquery-1.9.1.js"></script>
+  <script src="jqueryui/js/jquery-ui-1.10.3.custom.js"></script>
+  <script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
+  <!-- -------------------- -->
+  <script src="js/jquery.bxslider.min.js"></script>
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <!-- -------------------- -->
 </head>
 <body>
-
-<div class="main">
-<div class="main-inner">
-<div class="page">
-<div class="page-inner">
-
-
-
-
-
-
-
-<header class="header-nav">
-<a href="#">Search</a>
-<h1>Find A Photographer</h1>
-</header>
-
-
-
-
-
-
-
-
-<article class="assistant-profile">
-
-<header>
-<a class="profile-star active" href="#">star</a>
-<h1>Mark Arundal</h1>
-<h2>Canberra, ACT Full Member</h2>
-</header>
-
-<div class="profile">
-<div class="slider">
-
-
-
-
-<ul class="bxslider">
-  <li><img src="images/test/slider-1.jpg"/></li>
-  <li><img src="images/test/slider-1.jpg"/></li>
-  <li><img src="images/test/slider-1.jpg"/></li>
-</ul>
-<script>
-$('.bxslider').bxSlider({
-  mode: 'fade',
-  captions: true
+  <div class="main">
+    <div class="main-inner">
+      <div class="page">
+        <div class="page-inner">
+          <header class="header-nav">
+            <a href="#">Search</a>
+            <h1>Find A Photographer</h1>
+          </header>
+          <article class="assistant-profile">
+            <header>
+              <a class="profile-star active" href="#">star</a>
+              <h1>Mark Arundal</h1>
+              <h2>Canberra, ACT Full Member</h2>
+            </header>
+            <div class="profile">
+              <div class="slider">
+                <ul class="bxslider">
+                  <li><img src="images/test/slider-1.jpg"/></li>
+                  <li><img src="images/test/slider-1.jpg"/></li>
+                  <li><img src="images/test/slider-1.jpg"/></li>
+                </ul>
+                <script>
+                $('.bxslider').bxSlider({
+                  mode: 'fade',
+                  captions: true
+                });
+                </script>
+              </div>
+            </div>
+            <div class="profile-bio">
+              <div id="accordion">
+                <h3>Contact Details</h3>
+                <div class="contact">
+                  <p><strong>Websites</strong></p>
+                  <p><a href="#">photosbymultilocus.com.au</a></p>
+                  <p><a href="#">multilocus.com.au</a></p>
+                  <p><strong>Business Name</strong></p>
+                  <p>Photography By Multilocus</p>
+                  <p><strong>Phone</strong></p>
+                  <p>0412 309 711</p>
+                  <p><strong>Email</strong></p>
+                </div>
+                <h3>Bio & Specialties</h3>
+                <div class="specialties">
+                  <p>My name is Mark Arundel and I am a Documentary and Wedding Photographer living in the Canberra and Capital Region.
+                  </p>
+                  <p>Through my portrait and wedding photography I like to record and tell the stories about the connections we make with each other. My driving philosophy is "Together we will create something special which will outlast all of us."
+                  </p>
+                  <p>In a review of my work, the Canberra 'City News' wrote: “... At the documentary level, this show is classic photography; the results are valuable historically while each photo is clean, no artifice, extremely well shot.”
+                  </p>
+                  <p>My portrait of Joe Hockey was listed as a finalist in the 2009 National Photographic Portrait Prize.
+                  </p>
+                  <p>My documentary photographic services include portrait photography, wedding photography, public relations photography, event photography, corporate photography and landscape photography.
+                  </p>
+                  <p>Whether you are looking to record an important family milestone or you have a commercial requirement, I can provide you with a tailored photographic service that will meet your needs.
+                  </p>
+                  <p>I work throughout the Canberra and Capital Region including but not limited to: Bega, Braidwood, Bungendore, Captains Flat, Collector, Cooma, Goulburn, Murrumbatemen, Queanbeyan, Wagga Wagga and Yass. I have customers throughout Australia and I will travel anywhere you need me to go.
+                  </p>
+                  <p>Originally graduating with a Bachelor of Science in Biochemistry I began my working life at the Australian National University working in research and then teaching. In 1998 I left the ANU to start my own business, Multilocus Interactive, which provides Communication, Education and Project Management Strategies to both the public and private sectors. As well as creating resources that have helped our customers win awards, Multilocus has been nominated for and received a number of awards in its own right.
+                  </p>
+                  <p>In March 2009 I took 12 months leave with my wife Denise to cycle around Australia. Traveling in an anticlockwise direction, we visited each of the state and territory capital cities of Brisbane, Darwin, Perth, Adelaide, Melbourne, Hobart, Sydney and Canberra. The ride was unsupported with us carrying everything we needed on our bikes and BOB trailers.
+                    Please visit www.photosbymultilocus.com.au to see examples of my work.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-- -------------------- -->
+          <footer class="footer-main">
+            <div id="nav">
+              <ul>
+                <li><a href="profile-assistant.html">profile assistant</a></li>
+                <li><a href="profile-photographer.html">profile photographer</a></li>
+                <li><a href="search-photographer.html">search photographer</a></li>
+                <li><a href="search-assistant.html">search assistant</a></li>
+                <li><a href="search-result.html">search result</a></li>
+                <li><a href="favourites.html">favourites</a></li>
+              </ul>
+            </div>
+            <script>
+            var navigation = responsiveNav("#nav", {
+animate: true,        // Boolean: Use CSS3 transitions, true or false
+transition: 400,      // Integer: Speed of the transition, in milliseconds
+label: "Menu",        // String: Label for the navigation toggle
+insert: "after",      // String: Insert the toggle before or after the navigation
+customToggle: "",     // Selector: Specify the ID of a custom toggle
+openPos: "relative",  // String: Position of the opened nav, relative or static
+jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
+init: function(){},   // Function: Init callback
+open: function(){},   // Function: Open callback
+close: function(){}   // Function: Close callback
 });
-</script>
-
-</div>
-</div>
-
-
-<div class="profile-bio">
-<div id="accordion">
-
-	<h3>Contact Details</h3>
-	<div class="contact">
-<p><strong>Websites</strong></p>
-<p><a href="#">photosbymultilocus.com.au</a></p>
-<p><a href="#">multilocus.com.au</a></p>
-<p><strong>Business Name</strong></p>
-<p>Photography By Multilocus</p>
-<p><strong>Phone</strong></p>
-<p>0412 309 711</p>
-<p><strong>Email</strong></p>
-	</div>
-	<h3>Bio & Specialties</h3>
-	<div class="specialties">
-<p>My name is Mark Arundel and I am a Documentary and Wedding Photographer living in the Canberra and Capital Region.
-</p>
-<p>Through my portrait and wedding photography I like to record and tell the stories about the connections we make with each other. My driving philosophy is "Together we will create something special which will outlast all of us."
-</p>
-<p>In a review of my work, the Canberra 'City News' wrote: “... At the documentary level, this show is classic photography; the results are valuable historically while each photo is clean, no artifice, extremely well shot.”
-</p>
-<p>My portrait of Joe Hockey was listed as a finalist in the 2009 National Photographic Portrait Prize.
-</p>
-<p>My documentary photographic services include portrait photography, wedding photography, public relations photography, event photography, corporate photography and landscape photography.
-</p>
-<p>Whether you are looking to record an important family milestone or you have a commercial requirement, I can provide you with a tailored photographic service that will meet your needs.
-</p>
-<p>I work throughout the Canberra and Capital Region including but not limited to: Bega, Braidwood, Bungendore, Captains Flat, Collector, Cooma, Goulburn, Murrumbatemen, Queanbeyan, Wagga Wagga and Yass. I have customers throughout Australia and I will travel anywhere you need me to go.
-</p>
-<p>Originally graduating with a Bachelor of Science in Biochemistry I began my working life at the Australian National University working in research and then teaching. In 1998 I left the ANU to start my own business, Multilocus Interactive, which provides Communication, Education and Project Management Strategies to both the public and private sectors. As well as creating resources that have helped our customers win awards, Multilocus has been nominated for and received a number of awards in its own right.
-</p>
-<p>In March 2009 I took 12 months leave with my wife Denise to cycle around Australia. Traveling in an anticlockwise direction, we visited each of the state and territory capital cities of Brisbane, Darwin, Perth, Adelaide, Melbourne, Hobart, Sydney and Canberra. The ride was unsupported with us carrying everything we needed on our bikes and BOB trailers.
-Please visit www.photosbymultilocus.com.au to see examples of my work.
-</p>
-	</div>
-</div>
-</div>
-
-</article>
-
-
-
-
-
-
-
-
-
-<footer class="footer-main">
-    <div id="nav">
-      <ul>
-<li><a href="profile-assistant.html">profile assistant</a></li>
-<li><a href="profile-photographer.html">profile photographer</a></li>
-<li><a href="search-photographer.html">search photographer</a></li>
-<li><a href="search-assistant.html">search assistant</a></li>
-<li><a href="search-result.html">search result</a></li>
-<li><a href="favourites.html">favourites</a></li>
-      </ul>
-    </div>
-
-    <script>
-      var navigation = responsiveNav("#nav", {
-        animate: true,        // Boolean: Use CSS3 transitions, true or false
-        transition: 400,      // Integer: Speed of the transition, in milliseconds
-        label: "Menu",        // String: Label for the navigation toggle
-        insert: "after",      // String: Insert the toggle before or after the navigation
-        customToggle: "",     // Selector: Specify the ID of a custom toggle
-        openPos: "relative",  // String: Position of the opened nav, relative or static
-        jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
-        init: function(){},   // Function: Init callback
-        open: function(){},   // Function: Open callback
-        close: function(){}   // Function: Close callback
-      });
-    </script>
-</footer>
-
-
-
-
-
-
-</div><!-- end page-inner -->
-</div><!-- end page -->
-</div><!-- end main-inner -->
-</div><!-- end main -->
-
-
-
-
-
-
-
+            </script>
+          </footer>
+          <!-- -------------------- -->
+        </div><!-- end page-inner -->
+      </div><!-- end page -->
+    </div><!-- end main-inner -->
+  </div><!-- end main -->
 </body>
 <html>

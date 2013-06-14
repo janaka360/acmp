@@ -1,169 +1,116 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ACMP</title>
-<link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
-
-
-
-
-<!--     <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+    <title>ACMP</title>
+    <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/main.min.css" rel="stylesheet" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/responsive-nav.css">
     <script src="js/responsive-nav.js"></script>
-
-
-
-	<link href="jqueryui/css/no-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet">
-	<script src="jqueryui/js/jquery-1.9.1.js"></script>
-	<script src="jqueryui/js/jquery-ui-1.10.3.custom.js"></script>
-	<script>
-	$(function() {
-		$( "#accordion" ).accordion();
-	});
-	</script>
-
-
-
+    <link href="jqueryui/css/no-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+    <script src="jqueryui/js/jquery-1.9.1.js"></script>
+    <script src="jqueryui/js/jquery-ui-1.10.3.custom.js"></script>
+    <script>
+    $(function() {
+        $( "#accordion" ).accordion();
+    });
+    </script>
 </head>
 <body>
-
-<div class="main">
-<div class="main-inner">
-<div class="page">
-<div class="page-inner">
-
-
-
-
-
-
-
-<header class="header-nav">
-<a href="#">Search</a>
-<h1>Find An Assistant</h1>
-</header>
-
-
-
-
-
-
-
-
-<article class="assistant-profile">
-
-<header>
-<a class="profile-star active" href="#">star</a>
-<h1>Zani Jackman</h1>
-<h2>Sydney, NSW, Assistant</h2>
-</header>
-
-<div class="profile">
-<div class="profile-pic">
-<img src="images/test/profile-pic.jpg">
-</div>
-<div class="profile-info">
-<h3>Own Car</h3>
-<p>Yes</p>
-<h3>Licence Type</h3>
-<p>Full</p>
-<h3>Phone</h3>
-<p>0412 309 711</p>
-<a href="mailto:test@test.com">test@test.com</a>
-</div>
-</div>
-
-
-<div class="profile-bio">
-<div id="accordion">
-
-	<h3>Education</h3>
-	<div class="education">
-<p>RMIT BA Photography 2005-2008</p>
-<ul>
-<li>Earl Carter</li>
-<li>Chris Budgeon</li>
-<li>Andrew Craig</li>
-<li>Rod Schaffer</li>
-</ul>
-	</div>
-	<h3>Experience (Self rated)</h3>
-	<div class="experience">
-<p><strong>Camera Equipment</strong><p>
-<ul>
-<li class=""><p>Nikon</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
-<li class=""><p>Hasselblad</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
-<li class=""><p>Canon</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
-</ul>
-<p><strong>Software</strong><p>
-<ul>
-<li class=""><p>Photoshop</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
-<li class=""><p>Lightroom</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
-</ul>
-	</div>
-	<h3>Other Experience</h3>
-	<div class="other-experience">
-<p><strong>Lighting Equipment</strong></p>
-<p>Profoto, Nikon CLS, Elinchrom, Canon, Broncolor, Bowens, Speedlights/Strobists</p>
-<p><strong>Computer Equipment</strong></p>
-	</div>
-
-</div>
-</div>
-
-</article>
-
-
-
-
-
-
-
-
-
-<footer class="footer-main">
-    <div id="nav">
-      <ul>
-<li><a href="profile-assistant.html">profile assistant</a></li>
-<li><a href="profile-photographer.html">profile photographer</a></li>
-<li><a href="search-photographer.html">search photographer</a></li>
-<li><a href="search-assistant.html">search assistant</a></li>
-<li><a href="search-result.html">search result</a></li>
-<li><a href="favourites.html">favourites</a></li>
-      </ul>
-    </div>
-
-    <script>
-      var navigation = responsiveNav("#nav", {
-        animate: true,        // Boolean: Use CSS3 transitions, true or false
-        transition: 400,      // Integer: Speed of the transition, in milliseconds
-        label: "Menu",        // String: Label for the navigation toggle
-        insert: "after",      // String: Insert the toggle before or after the navigation
-        customToggle: "",     // Selector: Specify the ID of a custom toggle
-        openPos: "relative",  // String: Position of the opened nav, relative or static
-        jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
-        init: function(){},   // Function: Init callback
-        open: function(){},   // Function: Open callback
-        close: function(){}   // Function: Close callback
-      });
-    </script>
-</footer>
-
-
-
-
-
-
-</div><!-- end page-inner -->
-</div><!-- end page -->
-</div><!-- end main-inner -->
-</div><!-- end main -->
-
-
-
-
-
-
-
-</body>
-<html>
+    <div class="main">
+        <div class="main-inner">
+            <div class="page">
+                <div class="page-inner">
+                    <header class="header-nav">
+                        <a href="#">Search</a>
+                        <h1>Find An Assistant</h1>
+                    </header>
+                    <article class="assistant-profile">
+                        <header>
+                            <a class="profile-star active" href="#">star</a>
+                            <h1>Zani Jackman</h1>
+                            <h2>Sydney, NSW, Assistant</h2>
+                        </header>
+                        <div class="profile">
+                            <div class="profile-pic">
+                                <img src="images/test/profile-pic.jpg">
+                            </div>
+                            <div class="profile-info">
+                                <h3>Own Car</h3>
+                                <p>Yes</p>
+                                <h3>Licence Type</h3>
+                                <p>Full</p>
+                                <h3>Phone</h3>
+                                <p>0412 309 711</p>
+                                <a href="mailto:test@test.com">test@test.com</a>
+                            </div>
+                        </div>
+                        <div class="profile-bio">
+                            <div id="accordion">
+                                <h3>Education</h3>
+                                <div class="education">
+                                    <p>RMIT BA Photography 2005-2008</p>
+                                    <ul>
+                                        <li>Earl Carter</li>
+                                        <li>Chris Budgeon</li>
+                                        <li>Andrew Craig</li>
+                                        <li>Rod Schaffer</li>
+                                    </ul>
+                                </div>
+                                <h3>Experience (Self rated)</h3>
+                                <div class="experience">
+                                    <p><strong>Camera Equipment</strong><p>
+                                        <ul>
+                                            <li class=""><p>Nikon</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
+                                            <li class=""><p>Hasselblad</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
+                                            <li class=""><p>Canon</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
+                                        </ul>
+                                        <p><strong>Software</strong><p>
+                                            <ul>
+                                                <li class=""><p>Photoshop</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
+                                                <li class=""><p>Lightroom</p><ul><li><a class="one" href="#">1</a></li><li><a class="two" href="#">2</a></li><li><a class="three" href="#">3</a></li><li><a class="four" href="#">4</a></li></ul></li>
+                                            </ul>
+                                        </div>
+                                        <h3>Other Experience</h3>
+                                        <div class="other-experience">
+                                            <p><strong>Lighting Equipment</strong></p>
+                                            <p>Profoto, Nikon CLS, Elinchrom, Canon, Broncolor, Bowens, Speedlights/Strobists</p>
+                                            <p><strong>Computer Equipment</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                            <!-- -------------------- -->
+                            <footer class="footer-main">
+                                <div id="nav">
+                                    <ul>
+                                        <li><a href="profile-assistant.html">profile assistant</a></li>
+                                        <li><a href="profile-photographer.html">profile photographer</a></li>
+                                        <li><a href="search-photographer.html">search photographer</a></li>
+                                        <li><a href="search-assistant.html">search assistant</a></li>
+                                        <li><a href="search-result.html">search result</a></li>
+                                        <li><a href="favourites.html">favourites</a></li>
+                                    </ul>
+                                </div>
+                                <script>
+                                var navigation = responsiveNav("#nav", {
+animate: true,        // Boolean: Use CSS3 transitions, true or false
+transition: 400,      // Integer: Speed of the transition, in milliseconds
+label: "Menu",        // String: Label for the navigation toggle
+insert: "after",      // String: Insert the toggle before or after the navigation
+customToggle: "",     // Selector: Specify the ID of a custom toggle
+openPos: "relative",  // String: Position of the opened nav, relative or static
+jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
+init: function(){},   // Function: Init callback
+open: function(){},   // Function: Open callback
+close: function(){}   // Function: Close callback
+});
+                                </script>
+                            </footer>
+                            <!-- -------------------- -->
+                        </div><!-- end page-inner -->
+                    </div><!-- end page -->
+                </div><!-- end main-inner -->
+            </div><!-- end main -->
+        </body>
+        <html>

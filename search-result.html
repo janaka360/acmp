@@ -1,197 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ACMP</title>
-<link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
-
-
-
-
-<!--     <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+    <title>ACMP</title>
+    <link href='http://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/main.min.css" rel="stylesheet" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="css/responsive-nav.css">
     <script src="js/responsive-nav.js"></script>
-
-
-
-	<link href="jqueryui/css/no-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet">
-	<script src="jqueryui/js/jquery-1.9.1.js"></script>
-	<script src="jqueryui/js/jquery-ui-1.10.3.custom.js"></script>
-	<script>
-	$(function() {
-		$( "#accordion" ).accordion();
-	});
-	</script>
-
-
-
+    <link href="jqueryui/css/no-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+    <script src="jqueryui/js/jquery-1.9.1.js"></script>
+    <script src="jqueryui/js/jquery-ui-1.10.3.custom.js"></script>
+    <script>
+    $(function() {
+        $( "#accordion" ).accordion();
+    });
+    </script>
 </head>
 <body>
-
-<div class="main">
-<div class="main-inner">
-<div class="page">
-<div class="page-inner">
-
-
-
-
-
-
-
-<header class="header-nav">
-<a href="#">Back</a>
-<h1>Search Results</h1>
-</header>
-
-
-
-
-
-
-
-<div class="favourites search">
-<header>
-    <p>61 Photographers found</p>
-</header>
-
-<div class="favourites-stack">
-<ul>
-<li>
-<!-- ------------------------------------------------------ -->
-<article class="favourites-item">
-<div class="favourites-item-wrapper">
-<header>
-<h2>Rob Anderson</h2>
-<a class="profile-star" href="#">star</a>
-</header>
-<div class="favourites-item-inner">
-<div class="image">
-<img src="images/test/profile-pic-fav.jpg">
-</div>
-<div class="info">
-<p class="address">Melbourne, Vic,</p>
-<p class="type">Full Member</p>
-<p class="telephone">P. 0402 608 774</p>
-<a class="email" href="#">EMAIL</a>
-<a class="profile" href="#">PROFILE</a>
-</div>
-</div>
-</div>
-</article>
-<!-- ------------------------------------------------------ -->
-<article class="favourites-item">
-<div class="favourites-item-wrapper">
-<header>
-<h2>Rob Anderson</h2>
-<a class="profile-star active" href="#">star</a>
-</header>
-<div class="favourites-item-inner">
-<div class="image">
-<img src="images/test/profile-pic-fav.jpg">
-</div>
-<div class="info">
-<p class="address">Melbourne, Vic,</p>
-<p class="type">Full Member</p>
-<p class="telephone">P. 0402 608 774</p>
-<a class="email" href="#">EMAIL</a>
-<a class="profile" href="#">PROFILE</a>
-</div>
-</div>
-</div>
-</article>
-<!-- ------------------------------------------------------ -->
-<article class="favourites-item">
-<div class="favourites-item-wrapper">
-<header>
-<h2>Rob Anderson</h2>
-<a class="profile-star" href="#">star</a>
-</header>
-<div class="favourites-item-inner">
-<div class="image">
-<img src="images/test/profile-pic-fav.jpg">
-</div>
-<div class="info">
-<p class="address">Melbourne, Vic,</p>
-<p class="type">Full Member</p>
-<p class="telephone">P. 0402 608 774</p>
-<a class="email" href="#">EMAIL</a>
-<a class="profile" href="#">PROFILE</a>
-</div>
-</div>
-</div>
-</article>
-<!-- ------------------------------------------------------ -->
-</li>
-</ul>
-</div>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer class="footer-main">
-    <div id="nav">
-      <ul>
-<li><a href="profile-assistant.html">profile assistant</a></li>
-<li><a href="profile-photographer.html">profile photographer</a></li>
-<li><a href="search-photographer.html">search photographer</a></li>
-<li><a href="search-assistant.html">search assistant</a></li>
-<li><a href="search-result.html">search result</a></li>
-<li><a href="favourites.html">favourites</a></li>
-      </ul>
-    </div>
-
-    <script>
-      var navigation = responsiveNav("#nav", {
-        animate: true,        // Boolean: Use CSS3 transitions, true or false
-        transition: 400,      // Integer: Speed of the transition, in milliseconds
-        label: "Menu",        // String: Label for the navigation toggle
-        insert: "after",      // String: Insert the toggle before or after the navigation
-        customToggle: "",     // Selector: Specify the ID of a custom toggle
-        openPos: "relative",  // String: Position of the opened nav, relative or static
-        jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
-        init: function(){},   // Function: Init callback
-        open: function(){},   // Function: Open callback
-        close: function(){}   // Function: Close callback
-      });
-    </script>
-</footer>
-
-
-
-
-
-
-</div><!-- end page-inner -->
-</div><!-- end page -->
-</div><!-- end main-inner -->
-</div><!-- end main -->
-
-
-
-
-
-
-
+    <div class="main">
+        <div class="main-inner">
+            <div class="page">
+                <div class="page-inner">
+                    <header class="header-nav">
+                        <a href="#">Back</a>
+                        <h1>Search Results</h1>
+                    </header>
+                    <div class="favourites search">
+                        <header>
+                            <p class="count">61 Photographers found</p>
+                        </header>
+                        <div class="favourites-stack">
+                            <ul>
+                                <li>
+                                    <!-- ------------------------------------------------------ -->
+                                    <article class="favourites-item">
+                                        <div class="favourites-item-wrapper">
+                                            <header>
+                                                <h2>Rob Anderson</h2>
+                                                <a class="profile-star" href="#">star</a>
+                                            </header>
+                                            <div class="favourites-item-inner">
+                                                <div class="image">
+                                                    <img src="images/test/profile-pic-fav.jpg">
+                                                </div>
+                                                <div class="info">
+                                                    <p class="address">Melbourne, Vic,</p>
+                                                    <p class="type">Full Member</p>
+                                                    <p class="telephone">P. 0402 608 774</p>
+                                                    <a class="email" href="#">EMAIL</a>
+                                                    <a class="profile" href="#">PROFILE</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <!-- ------------------------------------------------------ -->
+                                    <article class="favourites-item">
+                                        <div class="favourites-item-wrapper">
+                                            <header>
+                                                <h2>Rob Anderson</h2>
+                                                <a class="profile-star active" href="#">star</a>
+                                            </header>
+                                            <div class="favourites-item-inner">
+                                                <div class="image">
+                                                    <img src="images/test/profile-pic-fav.jpg">
+                                                </div>
+                                                <div class="info">
+                                                    <p class="address">Melbourne, Vic,</p>
+                                                    <p class="type">Full Member</p>
+                                                    <p class="telephone">P. 0402 608 774</p>
+                                                    <a class="email" href="#">EMAIL</a>
+                                                    <a class="profile" href="#">PROFILE</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <!-- ------------------------------------------------------ -->
+                                    <article class="favourites-item">
+                                        <div class="favourites-item-wrapper">
+                                            <header>
+                                                <h2>Rob Anderson</h2>
+                                                <a class="profile-star" href="#">star</a>
+                                            </header>
+                                            <div class="favourites-item-inner">
+                                                <div class="image">
+                                                    <img src="images/test/profile-pic-fav.jpg">
+                                                </div>
+                                                <div class="info">
+                                                    <p class="address">Melbourne, Vic,</p>
+                                                    <p class="type">Full Member</p>
+                                                    <p class="telephone">P. 0402 608 774</p>
+                                                    <a class="email" href="#">EMAIL</a>
+                                                    <a class="profile" href="#">PROFILE</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <!-- ------------------------------------------------------ -->
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- -------------------- -->
+                    <footer class="footer-main">
+                        <div id="nav">
+                            <ul>
+                                <li><a href="profile-assistant.html">profile assistant</a></li>
+                                <li><a href="profile-photographer.html">profile photographer</a></li>
+                                <li><a href="search-photographer.html">search photographer</a></li>
+                                <li><a href="search-assistant.html">search assistant</a></li>
+                                <li><a href="search-result.html">search result</a></li>
+                                <li><a href="favourites.html">favourites</a></li>
+                            </ul>
+                        </div>
+                        <script>
+                        var navigation = responsiveNav("#nav", {
+animate: true,        // Boolean: Use CSS3 transitions, true or false
+transition: 400,      // Integer: Speed of the transition, in milliseconds
+label: "Menu",        // String: Label for the navigation toggle
+insert: "after",      // String: Insert the toggle before or after the navigation
+customToggle: "",     // Selector: Specify the ID of a custom toggle
+openPos: "relative",  // String: Position of the opened nav, relative or static
+jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
+init: function(){},   // Function: Init callback
+open: function(){},   // Function: Open callback
+close: function(){}   // Function: Close callback
+});
+                        </script>
+                    </footer>
+                    <!-- -------------------- -->
+                </div><!-- end page-inner -->
+            </div><!-- end page -->
+        </div><!-- end main-inner -->
+    </div><!-- end main -->
 </body>
 <html>
