@@ -13,28 +13,6 @@
 
 
 
-<!--     <meta name="viewport" content="width=device-width,initial-scale=1"> -->
-    <link rel="stylesheet" href="css/responsive-nav.css">
-    <script src="js/responsive-nav.js"></script>
-
-
-
-	<link href="jqueryui/css/no-theme/jquery-ui-1.10.3.custom.css" rel="stylesheet">
-	<script src="jqueryui/js/jquery-1.9.1.js"></script>
-	<script src="jqueryui/js/jquery-ui-1.10.3.custom.js"></script>
-	<script>
-	$(function() {
-		$( "#accordion" ).accordion();
-	});
-	</script>
-
-
-
-
-
-
-
-
 
 
 </head>
@@ -48,8 +26,8 @@
 
 
 <a class="logo"><h1>ACMP</h1></a>
-<a class="find-photographer">Find A Photographer<span></span></a>
-<a class="find-assistant">Find An Assistant<span></span></a>
+<a class="find-photographer">Find A<br/>Photographer</a>
+<a class="find-assistant">Find An<br/>Assistant</a>
 
 
 <article class="today-photographer">
@@ -58,49 +36,18 @@
 </article>
 
 
+<div class="visit">
+<p>Visit <a href="#">acmp.com.au</a> for more info on the<br/>benefits of becoming a member<p>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<footer class="footer-main">
-    <div id="nav">
-      <ul>
-<li><a href="profile-assistant.html">profile assistant</a></li>
-<li><a href="profile-photographer.html">profile photographer</a></li>
-<li><a href="search-photographer.html">search photographer</a></li>
-<li><a href="search-assistant.html">search assistant</a></li>
-<li><a href="search-result.html">search result</a></li>
-<li><a href="favourites.html">favourites</a></li>
-      </ul>
-    </div>
-
-    <script>
-      var navigation = responsiveNav("#nav", {
-        animate: true,        // Boolean: Use CSS3 transitions, true or false
-        transition: 400,      // Integer: Speed of the transition, in milliseconds
-        label: "Menu",        // String: Label for the navigation toggle
-        insert: "after",      // String: Insert the toggle before or after the navigation
-        customToggle: "",     // Selector: Specify the ID of a custom toggle
-        openPos: "relative",  // String: Position of the opened nav, relative or static
-        jsClass: "js",        // String: 'JS enabled' class which is added to <html> el
-        init: function(){},   // Function: Init callback
-        open: function(){},   // Function: Open callback
-        close: function(){}   // Function: Close callback
-      });
-    </script>
-</footer>
+<nav class="footer-links">
+<ul>
+<li><a class="link-home" href="#">home</a></li>
+<li><a class="link-find-a-photographer" href="#">find a photographer</a></li>
+<li><a class="link-find-an-assistant" href="#">find an assistant</a></li>
+<li><a class="link-favourites" href="#">favourites</a></li>
+</ul>
+</nav>
 
 
 

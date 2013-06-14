@@ -380,7 +380,7 @@ a.logo {
   background: url("../images/logo-acmp.png") no-repeat scroll 0 0 transparent;
   display: block;
   height: 118px;
-  margin: 0 auto;
+  margin: 83px auto 50px;
   padding: 0;
   text-align: center;
   text-indent: -9999em;
@@ -392,46 +392,32 @@ a.logo h1 {
   padding: 0;
 }
 
-a.find-photographer {
-  background: url("../images/bg-home-big-links.png") no-repeat scroll 20px center #EE1C2E;
-  border-radius: 30px 30px 30px 30px;
-  display: block;
-  line-height: 127px;
-  padding: 0 0 0 120px;
-  color: #ffffff;
-  text-decoration: none;
+a.find-photographer,
+a.find-assistant {
+background: url("../images/bg-home-big-links.png") no-repeat scroll 28px center, url("../images/btn-find-a-photographer.png") no-repeat scroll right center, none repeat scroll 0 0 #EE1C2E;
+border-radius: 30px 30px 30px 30px;
+color: #FFFFFF;
+display: block;
+font-size: 1.4em;
+line-height: 0.86em;
+margin: 0 56px 33px;
+padding: 35px 0 26px 121px;
+text-decoration: none;
 }
-
-a.find-photographer span {
-  background: url("../images/btn-find-a-photographer.png") no-repeat scroll 0 0 transparent;
-  float: right;
-  height: 127px;
-  width: 136px;
-}
-
 
 a.find-assistant {
-  background: url("../images/bg-home-big-links.png") no-repeat scroll 20px center #fb5e1a;
-  border-radius: 30px 30px 30px 30px;
-  display: block;
-  line-height: 127px;
-  padding: 0 0 0 120px;
-  color: #ffffff;
-  text-decoration: none;
+background: url("../images/bg-home-big-links.png") no-repeat scroll 28px center, url("../images/btn-find-an-assistant.png") no-repeat scroll right center, none repeat scroll 0 0 #FB5E1A;
 }
 
-a.find-assistant span {
-  background: url("../images/btn-find-an-assistant.png") no-repeat scroll 0 0 transparent;
-  float: right;
-  height: 127px;
-  width: 136px;
-}
 
 .today-photographer {
-
+margin: 0;
+padding: 19px 0 54px;
 }
 .today-photographer h2 {
-	text-align: center;
+text-align: center;
+font-size: 1em;
+padding: 0 0 21px;
 }
 .today-photographer a {
 
@@ -440,6 +426,67 @@ a.find-assistant span {
 display: block;
 margin: 0 auto;
 }
+
+
+
+
+.visit {
+  background: url("../images/ico-visit.png") no-repeat scroll 8% center #CFCFCF;
+  float: left;
+  margin: 0;
+  padding: 16px 0 18px;
+  text-align: center;
+  width: 100%;
+}
+.visit p {
+margin: 0;
+padding: 0;
+font-size: 0.78em;
+line-height: 1.2em;
+}
+.visit p a {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+
+.footer-links {
+  background: none repeat scroll 0 0 #60A492;
+  float: left;
+  width: 100%;
+  padding: 16px 0 0;
+  margin: 0;
+}
+.footer-links ul {
+  margin: 0 auto;
+  width: 636px;
+}
+.footer-links ul li {
+text-align: center;
+}
+.footer-links ul li a {
+  background: url("../images/bg-homepage-nav-links.png") no-repeat scroll 0 top transparent;
+  color: #FFFFFF;
+  display: block;
+  font-size: 0.6em;
+  font-weight: 700;
+  margin: 0;
+  padding: 42px 0 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 159px;
+float: left;
+}
+.footer-links ul li a.link-home {background-position: 57px top;}
+.footer-links ul li a.link-find-a-photographer {background-position: -97px top;}
+.footer-links ul li a.link-find-an-assistant {background-position: -276px top;}
+.footer-links ul li a.link-favourites {background-position: -423px top;}
+
+
+
+
 
 
 
