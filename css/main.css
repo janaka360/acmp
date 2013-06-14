@@ -310,6 +310,69 @@ width: auto;
 
 
 
+
+
+
+/*experience-index*/
+
+
+.experience-index {
+float: left;
+    width: 100%;
+}
+.experience-index h3 {
+  background: url("../images/accordion-plus.png") no-repeat scroll 96% center #dadada;
+  margin: 0 0 1px !important;
+}
+.experience-index h3.ui-state-active {
+  background: url("../images/accordion-minus.png") no-repeat scroll 96% center #dadada;
+}
+
+.experience-index div {
+  height: auto !important;
+  background: #e1e1e1;
+}
+.experience-index div ul {
+
+}
+.experience-index div ul li {
+  float: left;
+  width: 100%;
+}
+.experience-index div ul li p {
+  float: left;
+  width: 30%;
+}
+.experience-index div ul li ul {
+  float: left;
+  padding: 12px 0 0 0;
+}
+.experience-index div ul li ul li {
+width: auto;
+}
+.experience-index div ul li ul li a {
+  background: url("../images/ico-rating-star-off.png") no-repeat scroll 0 0 transparent;
+  display: block;
+  height: 26px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  text-indent: -9999em;
+  width: 28px;
+}
+.experience-index div ul li ul li.active a {
+  background: url("../images/ico-rating-star.png") no-repeat scroll 0 0 transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*home*/
 
 
@@ -617,8 +680,12 @@ border-bottom: 1px solid #bebebe;
 margin: 0 0 25px;
 }
 
-.advance-search-form .form-row .form-cell .city {float: left;}
-.advance-search-form .form-row .form-cell .city-text {float: left;}
+.advance-search-form .form-row .form-cell.city {
+  float: left;
+  margin: 20px 0 0;
+  width: 10%;
+}
+.advance-search-form .form-row .form-cell.city-text {float:left;width:90%;}
 
 .advance-search-form .search-submit {
   float: left;
