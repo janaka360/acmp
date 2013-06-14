@@ -514,6 +514,34 @@ text-decoration: underline;
 
 
 /*favourites*/
+
+
+.favourites-filter {
+width: 100%;
+float: left;
+padding: 18px 0 4px 0;
+margin: 0;
+}
+.favourites-filter .form-row.result {
+float: left;
+width: 33%;
+margin: 0;
+padding: 0 0 0 7%;
+}
+
+.favourites-filter .form-row.filter {
+float: left;
+width: 54%;
+margin: 0;
+padding: 0 6% 0 0;
+font-size: 0.7em;
+}
+
+
+
+
+
+
 .favourites {
 margin: 0;
 padding: 0;
@@ -682,7 +710,7 @@ margin: 0 0 25px;
 
 .advance-search-form .form-row .form-cell.city {
   float: left;
-  margin: 20px 0 0;
+  margin: 10px 0 0;
   width: 10%;
 }
 .advance-search-form .form-row .form-cell.city-text {float:left;width:90%;}
